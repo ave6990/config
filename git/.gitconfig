@@ -1,0 +1,17 @@
+[user]
+	email = ave6990@ya.ru
+	name = ave6990
+
+[color]
+    ui = true
+
+[alias]
+    ch = checkout
+    br = branch
+    st = status
+    mg = merge
+    cm = commit
+    reb = rebase
+
+[credential]
+    helper = cache --timeout=600
