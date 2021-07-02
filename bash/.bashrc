@@ -39,6 +39,8 @@ alias nn='nano -iklFT 4'
 #alias cd='cl'
 alias tosrc='cd ~/storage/shared/source'
 alias tods='cd ~/storage/shared/DroidScript'
-TGIT='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'
+
+# The GIT token.
+#TGIT=''
 
 crond
