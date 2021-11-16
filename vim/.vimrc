@@ -25,15 +25,28 @@ set incsearch
 
 set encoding=utf8
 
-" set an 80 column border for goos coding style
+" set an 80 column border for good coding style
 set cc=80
 
 " highlight current cursorline
 set cursorline
 
-
 " au BurRead,BufNewFile *.note set filetype=notes
 
+" vvvvv Vim netrw configuration vvvvv
+
+" the directory view
+let g:netrw_liststyle=3
+
+" file openning method
+let g:netrw_browse_split=3
+
+" size netrw window
+let g:netrw_winsize=30
+
+" ^^^^^ End vim netrw configuration ^^^^^
+
+" vvvvv JavaScript macroses vvvvv
 let @f="oconst @@name = (@@args) => {	@@body€kb}€ýa3k"
 let @n="/@@namedwdwhi "
 let @a="/@@argsdwdwi" 
