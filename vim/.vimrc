@@ -54,3 +54,6 @@ let @b="/@@bodydwdwa"
 let @t=":%s/\t/    /g"
 let @s="vbey/\"Nk"
 let @o=":tabnew README.mdgt:q:tabnew mcalc.html:new styles/style.css:tabnew main.js:tabnew models/measurements.js"
+
+" vim-slime
+let g:slime_target = "tmux"
